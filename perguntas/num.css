@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    background-color: rgb(65, 204, 242);
+    text-align: center;
+}
+
+.button {
+    background-color: rgb(160, 102, 0);
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    border: 5px black solid;
+    border-radius: 5px;
+    padding: 15px 20px;
+    padding: 15px;
+    width: 400px;
+}
+
+.button:hover {
+    background-color: rgb(96, 228, 63)
+}
+
+.button2:hover {
+    background-color: rgb(96, 228, 63)
+}
+
+.button2 {
+    margin-top: 10px;
+    background-color: rgb(160, 102, 0);
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    border: 5px black solid;
+    border-radius: 100px;
+    margin-left: 20px;
+
+    padding: 15px;
+}
+
+.button2-hide {
+    margin-top: 10px;
+    background-color: rgb(160, 102, 0);
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    border: 5px black solid;
+    border-radius: 100px;
+    margin-left: 20px;
+
+    padding: 15px;
+}
+
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    margin-right: 80px;
+    flex: 1; 
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.suprema{
+
+    display: flex;
+    flex-direction:column;
+    gap: 30px;
+
+}
+
+main {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(65, 204, 242);
+    min-height: 88.9vh;
+    height: max-content;
+
+    padding: 5%;
+}
+
+.star {
+    height: 280px;
+}
+
+.menor {
+    height: 250px;
+}
+
+.fm {
+    height: 400px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente os botões */
+    gap: 20px; /* Espaçamento entre os botões */
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+}
+
+.bolinhas {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 20px; /* Distância do rodapé */
+    right: 20px; /* Distância da direita */
+    color: black;
+    font-size: 1rem;
+}
+
+.button-like {
+    display: inline-block;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}

@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    background-color: rgb(65, 204, 242);
+    text-align: center;
+}
+
+.button {
+    background-color: rgb(160, 102, 0);
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    border: 5px black solid;
+    border-radius: 5px;
+    padding: 15px 20px;
+    padding: 15px;
+    width: 400px;
+}
+
+.button:hover {
+    background-color: rgb(96, 228, 63)
+}
+
+.buttonCOLOR {
+    background-color: rgb(160, 102, 0);
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    border: 5px black solid;
+    border-radius: 5px;
+    padding: 15px 20px;
+    padding: 15px;
+    width: 400px;
+    height: 80px;
+}
+
+.buttonCOLOR:hover {
+    scale: 1.05;
+}
+
+
+.buttonRED {
+    background-color: rgb(160, 102, 0);
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    border: 5px black solid;
+    border-radius: 5px;
+    padding: 15px 20px;
+    padding: 15px;
+    width: 400px;
+}
+
+.buttonRED:hover {
+    background-color: rgb(236, 16, 16);
+    color: white;
+}
+
+
+.buttonHIDE {
+    background-color: rgb(65, 204, 242);
+    color: rgb(65, 204, 242);
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 15px 20px;
+    padding: 15px;
+    width: 250px;
+}
+
+.buttonHIDE:hover {
+    color: white;
+}
+
+
+.button2 {
+    margin-top: 10px;
+    background-color: rgb(160, 102, 0);
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    border: 5px black solid;
+    border-radius: 100px;
+    margin-left: 20px;
+
+    padding: 15px;
+}
+
+.button2RED {
+    margin-top: 10px;
+    background-color: rgb(236, 16, 16);
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: bold;
+    border: 5px black solid;
+    border-radius: 100px;
+    margin-left: 20px;
+
+    padding: 15px;
+}
+
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    margin-right: 80px;
+    flex: 1; 
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.suprema{
+
+    display: flex;
+    flex-direction:column;
+    gap: 30px;
+
+}
+
+main {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(65, 204, 242);
+    min-height: 88.9vh;
+    height: max-content;
+
+    padding: 5%;
+}
+
+.star {
+    height: 280px;
+}
+
+.menor {
+    height: 250px;
+}
+
+.mini {
+    height: 200px;
+}
+
+.fm {
+    height: 400px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente os botões */
+    gap: 20px; /* Espaçamento entre os botões */
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 20px; /* Distância do rodapé */
+    right: 20px; /* Distância da direita */
+    color: black;
+    font-size: 1rem;
+}
+
+.button-like {
+    display: inline-block;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button-like:hover {
+    scale: 1.3;
+}
+
+.button-liki {
+    display: inline-block;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button-liki:hover {
+    scale: 1.1;
+}
+
+.image-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+.image-button img {
+    display: block;
+}
+
+.maior {
+    height: 450px;
+}
+
+.separar {
+    display: flex;
+    justify-content: center;
+}
+
+.separar2 {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.button-like-white {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button-like-white:hover {
+    scale: 1.1;
+}
+
+.box {
+    background-image: url('/Genio-Quiz---Brawl-Stars/imagens/moitas.jpeg');
+    background-size: cover;
+    height: 50vh;
+    width: 50vh;
+}
