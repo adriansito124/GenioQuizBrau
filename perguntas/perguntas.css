@@ -243,3 +243,22 @@ main {
     height: 50vh;
     width: 50vh;
 }
+
+.labirinto {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.parede, .borda {
+    position: absolute;
+    background-color: #e74c3c; /* Cor da parede */
+}
+
+.meta {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
