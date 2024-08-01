@@ -155,6 +155,79 @@ main {
     height: 200px;
 }
 
+.esquerda_baixo {
+    height: 160px;
+}
+
+.esquerda_cima {
+    height: 160px;
+}
+
+.direita_baixo {
+    height: 160px;
+}
+
+.direita {
+    height: 160px;
+}
+
+.esquerda {
+    height: 160px;
+}
+
+.baixo {
+    height: 160px;
+}
+
+.cima {
+    height: 160px;
+}
+
+.mini2 {
+    height: 160px;
+}
+
+.rey {
+    height: 160px;
+}
+
+.mini2:hover {
+    content: url('/GenioQuizBrau/imagens/El_Primo.png'); /* Altere para o caminho da nova imagem */
+}
+
+.baixo:hover {
+    content: url('/GenioQuizBrau/imagens/baixo.png'); /* Altere para o caminho da nova imagem */
+}
+
+.rey:hover {
+    content: url('/GenioQuizBrau/imagens/el_rey.png'); /* Altere para o caminho da nova imagem */
+}
+
+.esquerda_baixo:hover {
+    content: url('/GenioQuizBrau/imagens/esquerda_baixo.png'); /* Altere para o caminho da nova imagem */
+}
+
+.direita_baixo:hover {
+    content: url('/GenioQuizBrau/imagens/direita_baixo.png'); /* Altere para o caminho da nova imagem */
+}
+
+.direita:hover {
+    content: url('/GenioQuizBrau/imagens/direita.png'); /* Altere para o caminho da nova imagem */
+}
+
+.esquerda:hover {
+    content: url('/GenioQuizBrau/imagens/esquerda.png'); /* Altere para o caminho da nova imagem */
+}
+
+.cima:hover {
+    content: url('/GenioQuizBrau/imagens/cima.png'); /* Altere para o caminho da nova imagem */
+}
+
+.esquerda_cima:hover {
+    content: url('/GenioQuizBrau/imagens/esquerda_cima.png'); /* Altere para o caminho da nova imagem */
+}
+
+
 .fm {
     height: 400px;
 }
