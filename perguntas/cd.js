@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
     
     let x = 0;
     let y = 0;
-    let vx = 3; //velocidade
-    let vy = 3; 
+    let vx = 7; //velocidade
+    let vy = 7; 
 
     function update() {
         const screenWidth = screen.clientWidth;
