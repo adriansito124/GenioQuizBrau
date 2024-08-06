@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         texto.textContent = y;
 
         if (x==y) {
-            window.location.href = './43.html';
+            window.location.href = './43_1.html';
         }
     });
 
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 window.location.href = './derrota.html';
             }
             if (x==y) {
-                window.location.href = './43.html';
+                window.location.href = './43_1.html';
             }
             
             botao.textContent = x;

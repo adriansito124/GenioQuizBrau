@@ -14,36 +14,32 @@
             <button class="button2" type="submit">43.</button>
             <h1>Qual o Brawler com mais vida?</h1>
         </form>
-
     </header>
     <main>
-
-        <img src="/GenioQuizBrau/imagens/brau.png" class="star">
-
+        <div id="mapa">
+            <div id="boneco"></div>
+        </div>
         <div class="botoes">
-            <form action="./02.html">
-                <button class="button" type="submit">Frank</button>
-            </form>
-            <form action="./derrota.html">
-                <button class="button" type="submit">El Primo</button>
+            <form>
+                <button class="up" type="button" onclick="move('up')">↑</button>
             </form>
         </div>
-        <br>
-        <br>
-        <div class="botoes">
-            <form action="./derrota.html">
-                <button class="button" type="submit">Bull</button>
+        <div class="setas">
+            <form>
+                <button class="left" type="button" onclick="move('left')">←</button>
             </form>
-            <form action="./derrota.html">
-                <button class="button" type="submit">Rosa</button>
+            <form>
+                <button class="low" type="button" onclick="move('down')">↓</button>
+            </form>
+            <form>
+                <button class="right" type="button" onclick="move('right')">→</button>
             </form>
         </div>
-
         <div class="footer">
             <p>Este jogo foi feito por Adrian Gobara 2024</p>
         </div>
-
     </main>
+    <script src="setas.js"></script>
 </body>
 
 </html>

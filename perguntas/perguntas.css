@@ -431,7 +431,7 @@ main {
     color: white;
 }
 
-.buutton {
+.up{
     background-color: rgb(160, 102, 0);
     cursor: pointer;
     color: black;
@@ -441,5 +441,87 @@ main {
     border-radius: 5px;
     padding: 15px 20px;
     padding: 15px;
-    width: 400px;
+    width: 100px;
+    height: 100px;
+}
+
+.right{
+    background-color: rgb(160, 102, 0);
+    cursor: pointer;
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    border: 5px black solid;
+    border-radius: 5px;
+    padding: 15px 20px;
+    padding: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+.left{
+    background-color: rgb(160, 102, 0);
+    cursor: pointer;
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    border: 5px black solid;
+    border-radius: 5px;
+    padding: 15px 20px;
+    padding: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+.low{
+    background-color: rgb(160, 102, 0);
+    cursor: pointer;
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    border: 5px black solid;
+    border-radius: 5px;
+    padding: 15px 20px;
+    padding: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+.setas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#mapa {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+#boneco {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button-likki {
+    display: inline-block;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button-likki:hover::after {
+    content: "Matias Zuninga";
+}
+.button-likki::after {
+    content: "Adrian Gobara";
 }
