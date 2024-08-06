@@ -520,7 +520,7 @@ main {
 }
 
 .button-likki:hover::after {
-    content: "Matias Zuninga";
+    content: "Matias Zuniga";
 }
 .button-likki::after {
     content: "Adrian Gobara";
