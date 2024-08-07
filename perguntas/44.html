@@ -10,9 +10,9 @@
 
 <body>
     <header class="header">
-        <form class="row" >
+        <form class="row">
             <button class="button2" type="submit">44.</button>
-            <h1>Vença a luta 🥊<a class="button-like-white" id="treino">💥</a></h1> 
+            <h1>Vença a luta 🥊<a class="button-like-white" id="treino" onclick="changeImage()">💥</a></h1>
         </form>
 
     </header>
@@ -21,17 +21,44 @@
         <img id="primo" src="/GenioQuizBrau/imagens/primo1.png" class="star">
 
         <div class="botoes">
-            <form action="./44.html">
-                <button class="button" type="submit">Lutar</button>
+            <form>
+                <button class="button" id="luta" type="button" onclick="next()">Lutar</button>
             </form>
-        </div>     
+        </div>
 
         <div class="footer">
             <p>Este jogo foi feito por Adrian Gobara 2024</p>
         </div>
 
     </main>
-    <script src="treino.js"></script>
+    <script>
+        let x = 0;
+
+        function next() {
+            if (x<10) {
+                window.location.href = './derrota.html';
+            }
+            else
+            {
+                window.location.href = './45.html';
+            }
+        }
+
+        function changeImage() {
+            x = x + 1;
+            console.log(`Botão clicado: ${x}`);
+            var image = document.getElementById("primo");
+            if (image.src.includes("primo1.png") && x == 3) {
+                image.src = "/GenioQuizBrau/imagens/primo2.png";
+            }
+            if (x == 6) {
+                image.src = "/GenioQuizBrau/imagens/primo3.png";
+            }
+            if (x == 10) {
+                image.src = "/GenioQuizBrau/imagens/primo4.png";
+            }
+        }
+    </script>
 </body>
 
 </html>
