@@ -18,19 +18,37 @@
     </header>
     <main>
 
-        <img id="primo" src="/GenioQuizBrau/imagens/estrela.png" class="star">
+        <img id="map" src="/GenioQuizBrau/imagens/coordenada11.png" class="star">
 
-        <div class="alfabeto">
+            <div class="botoes">
+                <div class="alfabeto">
+                    <form>
+                        <button class="menos" id="menosx" type="button" onclick="lessx()">–</button>
+                    </form>
+                    <form>
+                        <button class="but2" type="button">X</button>
+                    </form>
+                    <form>
+                        <button class="mais" id="maisx" type="button" onclick="morex()">+</button>
+                    </form>
+                </div>
+                <div class="alfabeto">
+                    <form>
+                        <button class="menos" id="menosy" type="button" onclick="lessy()">–</button>
+                    </form>
+                    <form>
+                        <button class="mais" id="maisy" type="button">+</button>
+                    </form>
+                    <form>
+                        <button class="mais" id="maisy" type="button" onclick="morey()">+</button>
+                    </form>
+                </div>
+            </div>
+            <br><br>
             <form>
-                <button class="but" id="luta" type="button" onclick="next()">–</button>
+                <button class="button" type="button" onclick="next()">Continuar</button>
             </form>
-            <form>
-                <button class="but2" id="luta" type="button" onclick="next()">X</button>
-            </form>
-            <form>
-                <button class="but" id="luta" type="button" onclick="next()">+</button>
-            </form>
-        </div>
+        
 
         <div class="footer">
             <p>Este jogo foi feito por Adrian Gobara 2024</p>
@@ -38,32 +56,46 @@
 
     </main>
     <script>
-        let x = 0;
+        let x = 1;
+        let y = 1;
 
-        function next() {
-            if (x<10) {
-                window.location.href = './derrota44.html';
+        function morex() {
+            x++;
+            atualizarMapa();
+        }
+
+        function morey() {
+            y++;
+            atualizarMapa();
+        }
+
+        function lessx() {
+            x--;
+            atualizarMapa();
+        }
+
+        function lessy() {
+            y--;
+            atualizarMapa();
+        }
+
+
+        function atualizarMapa() {
+            const mapa = document.querySelector("#map");
+            mapa.src = `/GenioQuizBrau/imagens/coordenada${x}${y}.png`;
+        }
+
+        function next(){
+            if(x==3 && y==2)
+            {
+                window.location.href = './47.html';
             }
             else
             {
-                window.location.href = './44_2.html';
+                window.location.href = './derrota46.html';
             }
         }
-
-        function changeImage() {
-            x = x + 1;
-            console.log(`Botão clicado: ${x}`);
-            var image = document.getElementById("primo");
-            if (image.src.includes("primo1.png") && x == 3) {
-                image.src = "/GenioQuizBrau/imagens/primo2.png";
-            }
-            if (x == 6) {
-                image.src = "/GenioQuizBrau/imagens/primo3.png";
-            }
-            if (x == 10) {
-                image.src = "/GenioQuizBrau/imagens/primo4.png";
-            }
-        }
+        
     </script>
 </body>
 

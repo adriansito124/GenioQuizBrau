@@ -549,7 +549,7 @@ main {
     text-align: center;
 }
 
-.but {
+.mais {
 
     background-color: rgb(160, 102, 0);
     cursor: pointer;
@@ -564,7 +564,7 @@ main {
 
 }
 
-.but2 {
+.menos {
 
     background-color: rgb(160, 102, 0);
     cursor: pointer;
@@ -577,4 +577,29 @@ main {
     width: 80px;
     height: 80px;
 
+}
+
+
+.but2 {
+
+    background-color: rgb(160, 102, 0);
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bold;
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+
+}
+
+.mais:hover{
+    background-color: rgb(96, 228, 63);
+    scale: 1.1;
+}
+
+.menos:hover{
+    background-color: rgb(96, 228, 63);
+    scale: 1.1;
 }
