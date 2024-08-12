@@ -18,7 +18,15 @@
     <main>
         <div class="forca">
             <img class="less" src="/GenioQuizBrau/imagens/forca0.jpeg">
-            <div class="letter"></div>
+            <div class="palavra">
+                <div class="letter" id="letter1"></div>
+                <div class="letter" id="letter2"></div>
+                <div class="letter" id="letter3"></div>
+                <div class="letter" id="letter4"></div>
+                <div class="letter" id="letter5"></div>
+                <div class="letter" id="letter6"></div>
+                <div class="letter" id="letter7"></div>
+            </div>
         </div>
         <div class="alfabeto">
             <form>
@@ -111,7 +119,52 @@
             <p>Este jogo foi feito por Adrian Gobara 2024</p>
         </div>
     </main>
-    <script src="setas.js"></script>
+    <script>
+        let acertos = 0;
+        const segredo = "elprimo";
+        let erros = 0; 
+        const maxErros = 6; 
+    
+
+        function verificarLetra(letra, botao) {
+            let acertou = false;
+    
+            for (let i = 0; i < segredo.length; i++) {
+                if (segredo[i] === letra.toLowerCase()) {
+                    document.getElementById(`letter${i + 1}`).textContent = letra.toUpperCase();
+                    acertou = true;
+                    acertos++;
+                }
+            }
+    
+            if (acertou) {
+                botao.style.backgroundColor = "rgb(96, 228, 63)";
+            } else {
+                botao.style.backgroundColor = "red";
+                erros++;
+                atualizarImagem();
+            }
+    
+            botao.disabled = true;
+    
+            if (erros >= maxErros) {
+                window.location.href = './derrota.html';
+            }
+
+            if (acertos>= 7){
+                window.location.href = './46.html';
+            }
+        }
+    
+        function atualizarImagem() {
+            const imagemForca = document.querySelector(".forca img");
+            imagemForca.src = `/GenioQuizBrau/imagens/forca${erros}.jpeg`;
+        }
+
+        document.querySelectorAll(".letra").forEach(botao => {
+            botao.addEventListener("click", () => verificarLetra(botao.textContent, botao));
+        });
+    </script>
 </body>
 
 </html>
