@@ -37,7 +37,7 @@
                         <button class="menos" id="menosy" type="button" onclick="lessy()">–</button>
                     </form>
                     <form>
-                        <button class="mais" id="maisy" type="button">+</button>
+                        <button class="but2" id="maisy" type="button">Y</button>
                     </form>
                     <form>
                         <button class="mais" id="maisy" type="button" onclick="morey()">+</button>
@@ -59,11 +59,17 @@
         let x = 1;
         let y = 1;
 
+        
+
         function morex() {
             if(x<4)
             {
                 x++;
                 atualizarMapa();
+                const func = () => {
+                console.log('Olá depois de 4 segundos');
+                };
+                setTimeout(func, 4 * 1000);
             }
             
         }
