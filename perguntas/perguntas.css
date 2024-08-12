@@ -115,7 +115,7 @@ h1 {
     color: rgb(255, 255, 255);
     font-size: 3rem;
     margin-right: 80px;
-    flex: 1; 
+    flex: 1;
 }
 
 .row {
@@ -124,17 +124,17 @@ h1 {
     gap: 5px;
 }
 
-.suprema{
+.suprema {
 
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     gap: 30px;
 
 }
 
 main {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
     gap: 20px;
     background-color: rgb(65, 204, 242);
@@ -193,39 +193,48 @@ main {
 }
 
 .mini2:hover {
-    content: url('/GenioQuizBrau/imagens/El_Primo.png'); /* Altere para o caminho da nova imagem */
+    content: url('/GenioQuizBrau/imagens/El_Primo.png');
+    /* Altere para o caminho da nova imagem */
 }
 
 .baixo:hover {
-    content: url('/GenioQuizBrau/imagens/baixo.png'); /* Altere para o caminho da nova imagem */
+    content: url('/GenioQuizBrau/imagens/baixo.png');
+    /* Altere para o caminho da nova imagem */
 }
 
 .rey:hover {
-    content: url('/GenioQuizBrau/imagens/El_Primo.png'); /* Altere para o caminho da nova imagem */
+    content: url('/GenioQuizBrau/imagens/El_Primo.png');
+    /* Altere para o caminho da nova imagem */
 }
 
 .esquerda_baixo:hover {
-    content: url('/GenioQuizBrau/imagens/esquerda_baixo.png'); /* Altere para o caminho da nova imagem */
+    content: url('/GenioQuizBrau/imagens/esquerda_baixo.png');
+    /* Altere para o caminho da nova imagem */
 }
 
 .direita_baixo:hover {
-    content: url('/GenioQuizBrau/imagens/direita_baixo.png'); /* Altere para o caminho da nova imagem */
+    content: url('/GenioQuizBrau/imagens/direita_baixo.png');
+    /* Altere para o caminho da nova imagem */
 }
 
 .direita:hover {
-    content: url('/GenioQuizBrau/imagens/direita.png'); /* Altere para o caminho da nova imagem */
+    content: url('/GenioQuizBrau/imagens/direita.png');
+    /* Altere para o caminho da nova imagem */
 }
 
 .esquerda:hover {
-    content: url('/GenioQuizBrau/imagens/esquerda.png'); /* Altere para o caminho da nova imagem */
+    content: url('/GenioQuizBrau/imagens/esquerda.png');
+    /* Altere para o caminho da nova imagem */
 }
 
 .cima:hover {
-    content: url('/GenioQuizBrau/imagens/cima.png'); /* Altere para o caminho da nova imagem */
+    content: url('/GenioQuizBrau/imagens/cima.png');
+    /* Altere para o caminho da nova imagem */
 }
 
 .esquerda_cima:hover {
-    content: url('/GenioQuizBrau/imagens/esquerda_cima.png'); /* Altere para o caminho da nova imagem */
+    content: url('/GenioQuizBrau/imagens/esquerda_cima.png');
+    /* Altere para o caminho da nova imagem */
 }
 
 
@@ -235,8 +244,10 @@ main {
 
 .button-container {
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente os botões */
-    gap: 20px; /* Espaçamento entre os botões */
+    justify-content: center;
+    /* Centraliza horizontalmente os botões */
+    gap: 20px;
+    /* Espaçamento entre os botões */
 }
 
 .botoes {
@@ -247,8 +258,10 @@ main {
 
 .footer {
     position: absolute;
-    bottom: 20px; /* Distância do rodapé */
-    right: 20px; /* Distância da direita */
+    bottom: 20px;
+    /* Distância do rodapé */
+    right: 20px;
+    /* Distância da direita */
     color: black;
     font-size: 1rem;
 }
@@ -281,6 +294,7 @@ main {
     padding: 0;
     cursor: pointer;
 }
+
 .image-button img {
     display: block;
 }
@@ -325,9 +339,11 @@ main {
     background-color: rgb(65, 204, 242);
 }
 
-.parede, .borda {
+.parede,
+.borda {
     position: absolute;
-    background-color: #e74c3c; /* Cor da parede */
+    background-color: #e74c3c;
+    /* Cor da parede */
 }
 
 .meta {
@@ -384,11 +400,11 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px; 
+    gap: 30px;
 }
 
 .selected {
-    background-color: yellow ; 
+    background-color: yellow;
 }
 
 .button-likii {
@@ -406,8 +422,10 @@ main {
 }
 
 .button-likii.selected {
-    background-color: yellow; /* Cor de fundo quando selecionado */
-    color: black; /* Cor do texto quando selecionado */
+    background-color: yellow;
+    /* Cor de fundo quando selecionado */
+    color: black;
+    /* Cor do texto quando selecionado */
 }
 
 .buttton {
@@ -423,12 +441,12 @@ main {
     width: 400px;
 }
 
-.buttton.selected{
+.buttton.selected {
     background-color: yellow
 }
 
 .warning {
-    background-color: red; 
+    background-color: red;
     color: white;
 }
 
@@ -485,6 +503,7 @@ main {
 .button-likki:hover::after {
     content: "Matias Zuniga";
 }
+
 .button-likki::after {
     content: "Adrian Gobara";
 }
@@ -502,11 +521,11 @@ main {
 
 }
 
-.letra:hover{
+.letra:hover {
     background-color: rgb(96, 228, 63);
 }
 
-.palavra{
+.palavra {
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -514,7 +533,7 @@ main {
     align-items: center;
 }
 
-.letter{
+.letter {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #363636;
     width: 20%;
@@ -525,8 +544,37 @@ main {
     font-size: 2.4rem;
     color: white;
     display: flex;
-    justify-content: center;  
-    align-items: center;      
-    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
+.but {
+
+    background-color: rgb(160, 102, 0);
+    cursor: pointer;
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bold;
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+
+}
+
+.but2 {
+
+    background-color: rgb(160, 102, 0);
+    cursor: pointer;
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bold;
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+
+}

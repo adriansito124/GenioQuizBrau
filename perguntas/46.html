@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="perguntas.css">
+    <title>Genio Quiz Brawl Stars 🧠</title>
+</head>
+
+<body>
+    <header class="header">
+        <form class="row">
+            <button class="button2" type="submit">46.</button>
+            <h1>Coloque a coordenada correta</h1>
+        </form>
+
+    </header>
+    <main>
+
+        <img id="primo" src="/GenioQuizBrau/imagens/estrela.png" class="star">
+
+        <div class="alfabeto">
+            <form>
+                <button class="but" id="luta" type="button" onclick="next()">–</button>
+            </form>
+            <form>
+                <button class="but2" id="luta" type="button" onclick="next()">X</button>
+            </form>
+            <form>
+                <button class="but" id="luta" type="button" onclick="next()">+</button>
+            </form>
+        </div>
+
+        <div class="footer">
+            <p>Este jogo foi feito por Adrian Gobara 2024</p>
+        </div>
+
+    </main>
+    <script>
+        let x = 0;
+
+        function next() {
+            if (x<10) {
+                window.location.href = './derrota44.html';
+            }
+            else
+            {
+                window.location.href = './44_2.html';
+            }
+        }
+
+        function changeImage() {
+            x = x + 1;
+            console.log(`Botão clicado: ${x}`);
+            var image = document.getElementById("primo");
+            if (image.src.includes("primo1.png") && x == 3) {
+                image.src = "/GenioQuizBrau/imagens/primo2.png";
+            }
+            if (x == 6) {
+                image.src = "/GenioQuizBrau/imagens/primo3.png";
+            }
+            if (x == 10) {
+                image.src = "/GenioQuizBrau/imagens/primo4.png";
+            }
+        }
+    </script>
+</body>
+
+</html>
