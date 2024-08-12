@@ -60,23 +60,39 @@
         let y = 1;
 
         function morex() {
-            x++;
-            atualizarMapa();
+            if(x<4)
+            {
+                x++;
+                atualizarMapa();
+            }
+            
         }
 
         function morey() {
-            y++;
-            atualizarMapa();
+            if(y<4)
+            {
+                y++;
+                atualizarMapa();
+            }
+            
         }
 
         function lessx() {
-            x--;
-            atualizarMapa();
+            if(x>1)
+            {
+                x--;
+                atualizarMapa();
+            }
+            
         }
 
         function lessy() {
-            y--;
-            atualizarMapa();
+            if(y>1)
+            {
+                y--;
+                atualizarMapa();
+            }
+            
         }
 
 
