@@ -18,7 +18,7 @@
     </header>
     <main>
 
-        <img src="/GenioQuizBrau/imagens/ball1.png" id="ball" class="star" style="margin-top: 7%;">
+        <img src="/GenioQuizBrau/imagens/ball1.png" id="ball" class="star" style="margin-top: 7%; cursor: pointer;" onclick="verificar()">
 
         <div class="footer">
             <p>Este jogo foi feito por Adrian Gobara 2024</p>
@@ -27,21 +27,40 @@
     </main>
 
     <script>
+
+        
+        let y = 1;
         let x = false;
+        
+        const bola = document.querySelector("#ball");
+        
 
         function iniciarTimers() {
             setTimeout(() => {
                 x=true;
+                y++;
+                bola.src = `/GenioQuizBrau/imagens/ball${y}.png`;
                 setTimeout(() => {
-                    console.log("segundo");
                     x=false;
-                }, 2000); 
+                    y--;
+                    bola.src = `/GenioQuizBrau/imagens/ball${y}.png`;
+                }, 1000); 
             }, 8000); 
         }
 
         document.addEventListener('DOMContentLoaded', (event) => {
             iniciarTimers();
           });
+
+        function verificar(){
+            if(x==false){
+                window.location.href = './derrota.html';
+            }
+            else
+            {
+                window.location.href = './48.html';
+            }
+        }
 
     </script>
 </body>
