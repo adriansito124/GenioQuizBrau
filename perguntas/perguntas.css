@@ -602,3 +602,43 @@ main {
     background-color: rgb(96, 228, 63);
     scale: 1.1;
 }
+
+
+.buttox {
+    background-color: rgb(160, 102, 0);
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 5px black solid;
+    border-radius: 5px;
+    padding: 15px 20px;
+    padding: 15px;
+    width: 400px;
+}
+
+.buttox2 {
+    background-color: rgb(160, 102, 0);
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 5px black solid;
+    border-radius: 5px;
+    padding: 15px 20px;
+    padding: 15px;
+    width: 400px;
+}
+
+.buttox3 {
+    background-color: rgb(160, 102, 0);
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    border: 5px black solid;
+    border-radius: 5px;
+    padding: 15px 20px;
+    padding: 15px;
+    width: 400px;
+}
+.buttox2:hover {
+    background-color: rgb(96, 228, 63)
+}
