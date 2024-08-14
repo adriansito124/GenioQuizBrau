@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="perguntas.css">
     <title>Genio Quiz Brawl Stars 🧠</title>
+    <link rel="icon" href="/GenioQuizBrau/imagens/cavera.png">
 </head>
 
 <body>
     <header class="header">
         <form class="row">
             <button class="button2" type="submit">49.</button>
-            <h1>😈IM<a>P</a>OSSIVEL😈</h1>
+            <h1>😈IM<a id="p">P</a><a id="o">O</a><a id="s1">S</a><a id="s2">S</a><a id="i">I</a><a id="v">V</a><a id="e">E</a><a id="l">L</a>😈</h1>
         </form>
     </header>
     <main>
@@ -538,38 +539,48 @@
             botao.addEventListener("click", () => verificar(botao.id));
         });
 
-        function verificar(num){
+        function verificar(num){ 
             if(num == "bot0" && ponto == 0)
             {
+                
                 ponto++;
+                document.getElementById("p").style.color = "#5768D6";
+
             }
             else if(num == "bot1" && ponto == 1)
             {
                 ponto++;
+                document.getElementById("o").style.color = "#5768D6";
             }
             else if(num == "bot2" && ponto == 2)
             {
                 ponto++;
+                document.getElementById("s1").style.color = "#5768D6";
             }
             else if(num == "bot3" && ponto == 3)
             {
                 ponto++;
+                document.getElementById("s2").style.color = "#5768D6";
             }
             else if(num == "bot4" && ponto == 4)
             {
                 ponto++;
+                document.getElementById("i").style.color = "#5768D6";
             }
             else if(num == "bot5" && ponto == 5)
             {
                 ponto++;
+                document.getElementById("v").style.color = "#5768D6";
             }
             else if(num == "bot6" && ponto == 6)
             {
                 ponto++;
+                document.getElementById("e").style.color = "#5768D6";
             }
             else if(num == "bot7" && ponto == 7)
             {
                 window.location.href = "./50.html";
+                document.getElementById("l").style.color = "#5768D6";
             }
             else
             {

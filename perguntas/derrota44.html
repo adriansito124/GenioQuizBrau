@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="perguntas.css">
+    <link rel="icon" href="/GenioQuizBrau/imagens/noob.png">
     <title>Genio Quiz Brawl Stars 🧠</title>
 </head>
 
@@ -22,16 +23,21 @@
             <source src="/GenioQuizBrau/imagens/shelly.mp4" type="video/mp4">
           </video>
 
-          <div class="botoes">
-            <form action="./derrota.html">
-                <button class="button" type="submit">Continuar</button>
-            </form>
-        </div>
-
         <div class="footer">
             <p>Este jogo foi feito por Adrian Gobara 2024</p>
         </div>
 
+        <script>
+            document.addEventListener('DOMContentLoaded', (event) => {
+                iniciarTimer();
+              });
+            
+            function iniciarTimer(){
+                setTimeout(() => {
+                    window.location.href = "./derrota.html"
+                }, 2700); 
+            }
+        </script>
     </main>
 </body>
 
