@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="perguntas.css">
-    <link rel="icon" href="/GenioQuizBrau/imagens/cavera.png">
+    <link rel="icon" href="../imagens/cavera.png">
     <title>Genio Quiz Brawl Stars 🧠</title>
 </head>
 
@@ -19,7 +19,7 @@
     </header>
     <main>
 
-        <img src="/GenioQuizBrau/imagens/ball1.png" id="ball" class="star" style="margin-top: 7%; cursor: pointer;" onclick="verificar()">
+        <img src="../imagens/ball1.png" id="ball" class="star" style="margin-top: 7%; cursor: pointer;" onclick="verificar()">
 
         <div class="footer">
             <p>Este jogo foi feito por Adrian Gobara 2024</p>
@@ -40,11 +40,11 @@
             setTimeout(() => {
                 x=true;
                 y++;
-                bola.src = `/GenioQuizBrau/imagens/ball${y}.png`;
+                bola.src = `../imagens/ball${y}.png`;
                 setTimeout(() => {
                     x=false;
                     y--;
-                    bola.src = `/GenioQuizBrau/imagens/ball${y}.png`;
+                    bola.src = `../imagens/ball${y}.png`;
                 }, 1000); 
             }, 8000); 
         }

@@ -193,47 +193,47 @@ main {
 }
 
 .mini2:hover {
-    content: url('/GenioQuizBrau/imagens/El_Primo.png');
+    content: url('../imagens/El_Primo.png');
     /* Altere para o caminho da nova imagem */
 }
 
 .baixo:hover {
-    content: url('/GenioQuizBrau/imagens/baixo.png');
+    content: url('../imagens/baixo.png');
     /* Altere para o caminho da nova imagem */
 }
 
 .rey:hover {
-    content: url('/GenioQuizBrau/imagens/El_Primo.png');
+    content: url('../imagens/El_Primo.png');
     /* Altere para o caminho da nova imagem */
 }
 
 .esquerda_baixo:hover {
-    content: url('/GenioQuizBrau/imagens/esquerda_baixo.png');
+    content: url('../imagens/esquerda_baixo.png');
     /* Altere para o caminho da nova imagem */
 }
 
 .direita_baixo:hover {
-    content: url('/GenioQuizBrau/imagens/direita_baixo.png');
+    content: url('../imagens/direita_baixo.png');
     /* Altere para o caminho da nova imagem */
 }
 
 .direita:hover {
-    content: url('/GenioQuizBrau/imagens/direita.png');
+    content: url('../imagens/direita.png');
     /* Altere para o caminho da nova imagem */
 }
 
 .esquerda:hover {
-    content: url('/GenioQuizBrau/imagens/esquerda.png');
+    content: url('../imagens/esquerda.png');
     /* Altere para o caminho da nova imagem */
 }
 
 .cima:hover {
-    content: url('/GenioQuizBrau/imagens/cima.png');
+    content: url('../imagens/cima.png');
     /* Altere para o caminho da nova imagem */
 }
 
 .esquerda_cima:hover {
-    content: url('/GenioQuizBrau/imagens/esquerda_cima.png');
+    content: url('../imagens/esquerda_cima.png');
     /* Altere para o caminho da nova imagem */
 }
 

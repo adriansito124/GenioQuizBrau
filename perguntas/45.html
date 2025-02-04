@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="perguntas.css">
-    <link rel="icon" href="/GenioQuizBrau/imagens/cavera.png">
+    <link rel="icon" href="../imagens/cavera.png">
     <title>Genio Quiz Brawl Stars 🧠</title>
 </head>
 
@@ -18,7 +18,7 @@
     </header>
     <main>
         <div class="forca">
-            <img class="less" src="/GenioQuizBrau/imagens/forca0.jpeg">
+            <img class="less" src="../imagens/forca0.jpeg">
             <div class="palavra">
                 <div class="letter" id="letter1"></div>
                 <div class="letter" id="letter2"></div>
@@ -159,7 +159,7 @@
     
         function atualizarImagem() {
             const imagemForca = document.querySelector(".forca img");
-            imagemForca.src = `/GenioQuizBrau/imagens/forca${erros}.jpeg`;
+            imagemForca.src = `../imagens/forca${erros}.jpeg`;
         }
 
         document.querySelectorAll(".letra").forEach(botao => {
